@@ -44,7 +44,12 @@
 			"args": [],
 			"label": "SIGAADV",
 			"description": ""
+		},
+		{
+			"args": [],
+			"label": "SIGAfat",
+			"description": ""
 		}
 	],
-	"lastProgramExecuted": "SIGAADV"
+	"lastProgramExecuted": "SIGAfat"
 }
