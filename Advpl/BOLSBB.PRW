@@ -1,17 +1,18 @@
 #INCLUDE "RWMAKE.CH"
+
                                                                                                                    
 /*/
-ÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜ                                                          
-±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±
-±±ÚÄÄÄÄÄÄÄÄÄÄÂÄÄÄÄÄÄÄÄÄÄÂÄÄÄÄÄÄÄÂÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÂÄÄÄÄÄÄÂÄÄÄÄÄÄÄÄÄÄ¿±±
-±±³Programa  ³ WFATR001 ³ Autor ³ João Paulo Santos     ³ Data ³ 19/10/20 ³±±
-±±ÃÄÄÄÄÄÄÄÄÄÄÅÄÄÄÄÄÄÄÄÄÄÁÄÄÄÄÄÄÄÁÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÁÄÄÄÄÄÄÁÄÄÄÄÄÄÄÄÄÄ´±±
-±±³Descri‡…o ³ IMPRESSAO DO BOLETO BANCO DO BRASIL COM CODIGO DE BARRAS   ³±±
-±±ÃÄÄÄÄÄÄÄÄÄÄÅÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ´±±
-±±³Uso       ³ Especifico para Cliente Microsiga Wings                    ³±±
-±±ÀÄÄÄÄÄÄÄÄÄÄÁÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ±±
-±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±
-ßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßß
+ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½                                                          
+ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä¿ï¿½ï¿½
+ï¿½ï¿½ï¿½Programa  ï¿½ WFATR001 ï¿½ Autor ï¿½ Joï¿½o Paulo Santos     ï¿½ Data ï¿½ 19/10/20 ï¿½ï¿½ï¿½
+ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä´ï¿½ï¿½
+ï¿½ï¿½ï¿½Descriï¿½ï¿½o ï¿½ IMPRESSAO DO BOLETO BANCO DO BRASIL COM CODIGO DE BARRAS   ï¿½ï¿½ï¿½
+ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä´ï¿½ï¿½
+ï¿½ï¿½ï¿½Uso       ï¿½ Especifico para Cliente Microsiga Wings                    ï¿½ï¿½ï¿½
+ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ù±ï¿½
+ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 /*/
 User Function SMBOLBB()
 
@@ -72,7 +73,7 @@ DbSelectArea("SE1")
 	DbSetIndex(cIndexName + OrdBagExt())
 #ENDIF
 dbGoTop()
-@ 001,001 TO 400,700 DIALOG oDlg TITLE "Seleção de Titulos"
+@ 001,001 TO 400,700 DIALOG oDlg TITLE "Seleï¿½ï¿½o de Titulos"
 @ 001,001 TO 170,350 BROWSE "SE1" MARK "E1_OK"
 @ 180,310 BMPBUTTON TYPE 01 ACTION (lExec := .T.,Close(oDlg))
 @ 180,280 BMPBUTTON TYPE 02 ACTION (lExec := .F.,Close(oDlg))
@@ -103,17 +104,17 @@ Ferase(cIndexName+OrdBagExt())
 Return Nil
 
 /*/
-ÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜ
-±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±
-±±ÚÄÄÄÄÄÄÄÄÄÄÂÄÄÄÄÄÄÄÄÄÄÂÄÄÄÄÄÄÄÂÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÂÄÄÄÄÄÄÂÄÄÄÄÄÄÄÄÄÄ¿±±
-±±³Programa  ³  MontaRel³ Autor ³ Microsiga             ³ Data ³ 13/10/03 ³±±
-±±ÃÄÄÄÄÄÄÄÄÄÄÅÄÄÄÄÄÄÄÄÄÄÁÄÄÄÄÄÄÄÁÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÁÄÄÄÄÄÄÁÄÄÄÄÄÄÄÄÄÄ´±±
-±±³Descri‡…o ³ IMPRESSAO DO BOLETO LASER DO ITAU COM CODIGO DE BARRAS     ³±±
-±±ÃÄÄÄÄÄÄÄÄÄÄÅÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ´±±
-±±³Uso       ³ Especifico para Clientes Microsiga                         ³±±
-±±ÀÄÄÄÄÄÄÄÄÄÄÁÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ±±
-±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±
-ßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßß
+ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä¿ï¿½ï¿½
+ï¿½ï¿½ï¿½Programa  ï¿½  MontaRelï¿½ Autor ï¿½ Microsiga             ï¿½ Data ï¿½ 13/10/03 ï¿½ï¿½ï¿½
+ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä´ï¿½ï¿½
+ï¿½ï¿½ï¿½Descriï¿½ï¿½o ï¿½ IMPRESSAO DO BOLETO LASER DO ITAU COM CODIGO DE BARRAS     ï¿½ï¿½ï¿½
+ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä´ï¿½ï¿½
+ï¿½ï¿½ï¿½Uso       ï¿½ Especifico para Clientes Microsiga                         ï¿½ï¿½ï¿½
+ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ù±ï¿½
+ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 /*/
 Static Function MontaRel(aMarked)
 LOCAL cBoldias     :=SUPERGETMV ("SM_BOLDIAS",.T.,"5")
@@ -122,7 +123,7 @@ LOCAL nX           := 0
 Local cNroDoc      :=  " "
 Local cConvenio    := ""
 LOCAL aDadosEmp    := {	SM0->M0_NOMECOM                                    ,; //[1]Nome da Empresa
-                        SM0->M0_ENDCOB                                     ,; //[2]Endereço
+                        SM0->M0_ENDCOB                                     ,; //[2]Endereï¿½o
 AllTrim(SM0->M0_BAIRCOB)+", "+AllTrim(SM0->M0_CIDCOB)+", "+SM0->M0_ESTCOB  ,; //[3]Complemento
 "CEP: "+Subs(SM0->M0_CEPCOB,1,5)+"-"+Subs(SM0->M0_CEPCOB,6,3)              ,; //[4]CEP
 "PABX/FAX: "+SM0->M0_TEL                                                   ,; //[5]Telefones
@@ -135,8 +136,8 @@ Subs(SM0->M0_INSC,7,3)+"."+Subs(SM0->M0_INSC,10,3)                         }  //
 LOCAL aDadosTit
 LOCAL aDadosBanco
 LOCAL aDatSacado
-LOCAL aBolText     := {"Após o vencimento cobrar multa de R$ ",;
-"Após vencimento, Mora Diaria de R$ ",;
+LOCAL aBolText     := {"Apï¿½s o vencimento cobrar multa de R$ ",;
+"Apï¿½s vencimento, Mora Diaria de R$ ",;
 "Sujeito a Protesto apos 5 dias do vencimento"}
 
 LOCAL nI            := 1
@@ -152,7 +153,7 @@ aArea := GetArea()
 oPrint:= TMSPrinter():New( "Boleto Laser" )
 //oPrinter:Setup()
 oPrint:SetPortrait() //oPrint:SetLandscape()
-oPrint:StartPage()   // Inicia uma nova página
+oPrint:StartPage()   // Inicia uma nova pï¿½gina
 
 dbGoTop()
 Do While !EOF()
@@ -187,7 +188,7 @@ DbSetOrder(1)
 //If !DbSeek(xFilial("SA6")+SE1->(E1_PORTADO+E1_AGEDEP+E1_CONTA))
 If !DbSeek(xFilial("SA6")+cPortad+cAgenc+cContad)
 	//	return nil
-	MsgStop("O titulo "+Trim(SE1->(E1_PREFIXO+E1_NUM+E1_PARCELA))+" não será impresso, pois o banco não esta cadastrado!","Atenção")
+	MsgStop("O titulo "+Trim(SE1->(E1_PREFIXO+E1_NUM+E1_PARCELA))+" nï¿½o serï¿½ impresso, pois o banco nï¿½o esta cadastrado!","Atenï¿½ï¿½o")
 	//   return
 EndIf
 
@@ -200,7 +201,7 @@ Do While !SE1->(EOF())
 	If !DbSeek(xFilial()+SE1->E1_CLIENTE+SE1->E1_LOJA)
 		DBSkip()
 		Loop
-		MsgStop("O titulo "+Trim(SE1->(E1_PREFIXO+E1_NUM+E1_PARCELA))+" não será impresso, pois o cliente não esta cadastrado!","Atenção")
+		MsgStop("O titulo "+Trim(SE1->(E1_PREFIXO+E1_NUM+E1_PARCELA))+" nï¿½o serï¿½ impresso, pois o cliente nï¿½o esta cadastrado!","Atenï¿½ï¿½o")
 	EndIf
 	
 	DbSelectArea("SE1")
@@ -232,25 +233,25 @@ Do While !SE1->(EOF())
 	
 	aDadosBanco  := {SA6->A6_COD,;								// [1]Numero do Banco
 	SA6->A6_NOME,;												// [2]Nome do Banco
-	alltrim(SA6->A6_AGENCIA)		,;							// [3]Agência
+	alltrim(SA6->A6_AGENCIA)		,;							// [3]Agï¿½ncia
 	alltrim(SA6->A6_NUMCON)		,;							 	// [4]Conta Corrente
-	Alltrim(SA6->A6_DVCTA)		,;						 		// [5]Dígito da conta corrente
+	Alltrim(SA6->A6_DVCTA)		,;						 		// [5]Dï¿½gito da conta corrente
 	SEE->EE_SUBCTA,;											// [6]Codigo da Carteira
-	Alltrim(SA6->A6_DVAGE)         }                            // [7]Digito verificado da agência 
+	Alltrim(SA6->A6_DVAGE)         }                            // [7]Digito verificado da agï¿½ncia 
 	
 	If Empty(SA1->A1_ENDCOB)
-		aDatSacado   := {AllTrim(SA1->A1_NOME),;				// [1]Razão Social
-		AllTrim(SA1->A1_COD )+"-"+SA1->A1_LOJA,;				// [2]Código
-		AllTrim(SA1->A1_END )+"-"+AllTrim(SA1->A1_BAIRRO),;  	// [3]Endereço
+		aDatSacado   := {AllTrim(SA1->A1_NOME),;				// [1]Razï¿½o Social
+		AllTrim(SA1->A1_COD )+"-"+SA1->A1_LOJA,;				// [2]Cï¿½digo
+		AllTrim(SA1->A1_END )+"-"+AllTrim(SA1->A1_BAIRRO),;  	// [3]Endereï¿½o
 		AllTrim(SA1->A1_MUN ),;									// [4]Cidade
 		SA1->A1_EST,;											// [5]Estado
 		SA1->A1_CEP,;											// [6]CEP
 		SA1->A1_CGC,;											// [7]CGC
 		SA1->A1_PESSOA}											// [8]PESSOA
 	Else
-		aDatSacado   := {AllTrim(SA1->A1_NOME),;				// [1]Razão Social
-		AllTrim(SA1->A1_COD )+"-"+SA1->A1_LOJA,;				// [2]Código
-		AllTrim(SA1->A1_ENDCOB)+"-"+AllTrim(SA1->A1_BAIRROC),;	// [3]Endereço
+		aDatSacado   := {AllTrim(SA1->A1_NOME),;				// [1]Razï¿½o Social
+		AllTrim(SA1->A1_COD )+"-"+SA1->A1_LOJA,;				// [2]Cï¿½digo
+		AllTrim(SA1->A1_ENDCOB)+"-"+AllTrim(SA1->A1_BAIRROC),;	// [3]Endereï¿½o
 		AllTrim(SA1->A1_MUNC),;									// [4]Cidade
 		SA1->A1_ESTC,;											// [5]Estado
 		SA1->A1_CEPC,;											// [6]CEP
@@ -265,16 +266,16 @@ Do While !SE1->(EOF())
 	
 	//Monta codigo de barras   
 
-    // Chama a função RET_CBARRAS PASSANDO POR REFERENCIA OS DADOS BANCRIOS ABAIXO:
-    //                        [1]Numero do Banco       [3]Agência     [4]Conta CC    [5]Dígitocc  E1_NUMBCO               CALCULO        E1_VENCTO EE_CODEMP
+    // Chama a funï¿½ï¿½o RET_CBARRAS PASSANDO POR REFERENCIA OS DADOS BANCRIOS ABAIXO:
+    //                        [1]Numero do Banco       [3]Agï¿½ncia     [4]Conta CC    [5]Dï¿½gitocc  E1_NUMBCO               CALCULO        E1_VENCTO EE_CODEMP
 	aCB_RN_NN  := Ret_cBarra(Subs(aDadosBanco[1],1,3),aDadosBanco[3],aDadosBanco[4],aDadosBanco[5],cNroDoc,(SE1->E1_VALOR-nVlrAbat),SE1->E1_VENCTO,cConvenio)                            
 	                                  	       
-	aDadosTit	:= {AllTrim(SE1->E1_NUM)+AllTrim(SE1->E1_PARCELA),;	   // [1] Número do título
-	SE1->E1_EMISSAO,;				             		               // [2] Data da emissão do título
-	dDataBase,;							     						   // [3] Data da emissão do boleto
+	aDadosTit	:= {AllTrim(SE1->E1_NUM)+AllTrim(SE1->E1_PARCELA),;	   // [1] Nï¿½mero do tï¿½tulo
+	SE1->E1_EMISSAO,;				             		               // [2] Data da emissï¿½o do tï¿½tulo
+	dDataBase,;							     						   // [3] Data da emissï¿½o do boleto
 	SE1->E1_VENCTO,;							                       // [4] Data do vencimento
-	(SE1->E1_SALDO - nVlrAbat),;				                       // [5] Valor do título	
-    aCB_RN_NN[3],;						                               // [6] Nosso número (Ver fórmula para calculo)
+	(SE1->E1_SALDO - nVlrAbat),;				                       // [5] Valor do tï¿½tulo	
+    aCB_RN_NN[3],;						                               // [6] Nosso nï¿½mero (Ver fï¿½rmula para calculo)
 	SE1->E1_PREFIXO,;						                           // [7] Prefixo da NF
 	SE1->E1_TIPO}							                           // [8] Tipo do Titulo
 	
@@ -291,23 +292,23 @@ Do While !SE1->(EOF())
 	
 EndDo
 RestArea(aArea)
-	oPrint:EndPage()     // Finaliza a página
+	oPrint:EndPage()     // Finaliza a pï¿½gina
 		oPrint:Preview()     // Visualiza antes de imprimir
 
 Return nil
 
 /*/
-ÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜ
-±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±
-±±ÚÄÄÄÄÄÄÄÄÄÄÂÄÄÄÄÄÄÄÄÄÄÂÄÄÄÄÄÄÄÂÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÂÄÄÄÄÄÄÂÄÄÄÄÄÄÄÄÄÄ¿±±
-±±³Programa  ³  Impress ³ Autor ³ Microsiga             ³ Data ³ 13/10/03 ³±±
-±±ÃÄÄÄÄÄÄÄÄÄÄÅÄÄÄÄÄÄÄÄÄÄÁÄÄÄÄÄÄÄÁÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÁÄÄÄÄÄÄÁÄÄÄÄÄÄÄÄÄÄ´±±
-±±³Descri‡…o ³ IMPRESSAO DO BOLETO LASERDO ITAU COM CODIGO DE BARRAS      ³±±
-±±ÃÄÄÄÄÄÄÄÄÄÄÅÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ´±±
-±±³Uso       ³ Especifico para Clientes Microsiga                         ³±±
-±±ÀÄÄÄÄÄÄÄÄÄÄÁÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ±±
-±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±
-ßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßß
+ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä¿ï¿½ï¿½
+ï¿½ï¿½ï¿½Programa  ï¿½  Impress ï¿½ Autor ï¿½ Microsiga             ï¿½ Data ï¿½ 13/10/03 ï¿½ï¿½ï¿½
+ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä´ï¿½ï¿½
+ï¿½ï¿½ï¿½Descriï¿½ï¿½o ï¿½ IMPRESSAO DO BOLETO LASERDO ITAU COM CODIGO DE BARRAS      ï¿½ï¿½ï¿½
+ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä´ï¿½ï¿½
+ï¿½ï¿½ï¿½Uso       ï¿½ Especifico para Clientes Microsiga                         ï¿½ï¿½ï¿½
+ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ù±ï¿½
+ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 /*/
 Static Function Impress(oPrint,aDadosEmp,aDadosTit,aDadosBanco,aDatSacado,aBolText,aCB_RN_NN,cConvenio)
 LOCAL oFont8
@@ -337,7 +338,7 @@ oFont15n := TFont():New("Arial",9,15,.T.,.F.,5,.T.,5,.T.,.F.)
 oFont14n := TFont():New("Arial",9,14,.T.,.F.,5,.T.,5,.T.,.F.)
 oFont24  := TFont():New("Arial",9,24,.T.,.T.,5,.T.,5,.T.,.F.)
 
-oPrint:StartPage()   // Inicia uma nova página
+oPrint:StartPage()   // Inicia uma nova pï¿½gina
 
 /******************/
 /* PRIMEIRA PARTE */
@@ -371,9 +372,9 @@ cString	:= ""
 nCol := 1810+(374-(len(cString)*22))
 oPrint:Say  (nRow1+0750,nCol,cString,oFont11c)
 
-oPrint:Say  (nRow1+0810,100 ,"Beneficiário"                                               ,oFont8)
+oPrint:Say  (nRow1+0810,100 ,"Beneficiï¿½rio"                                               ,oFont8)
 oPrint:Say  (nRow1+0840,100 ,alltrim(aDadosEmp[1])+" - "+aDadosEmp[6]	                  ,oFont10) //Nome + CNPJ
-oPrint:Say  (nRow1+0874,100 ,alltrim(aDadosEmp[2])+" - "+aDadosEmp[3]+" - "+aDadosEmp[4]  ,oFont8)  //Endereço +  Complemento  + Cep
+oPrint:Say  (nRow1+0874,100 ,alltrim(aDadosEmp[2])+" - "+aDadosEmp[3]+" - "+aDadosEmp[4]  ,oFont8)  //Endereï¿½o +  Complemento  + Cep
 
 oPrint:Say  (nRow1+0810,1810,"Vencimento",oFont8)
 cString := StrZero(Day(aDadosTit[4]),2) +"/"+ StrZero(Month(aDadosTit[4]),2) +"/"+ Right(Str(Year(aDadosTit[4])),4)
@@ -382,14 +383,14 @@ oPrint:Say  (nRow1+0850,nCol,cString,oFont11c)
 
 oPrint:Say  (nRow1+0910,100 ,"Pagador"                             	  					                     	  ,oFont8)
 oPrint:Say  (nRow1+0940,100 ,aDatSacado[1]                                   		                    		  ,oFont10)      //Nome  
-oPrint:Say  (nRow1+0968,100 ,aDatSacado[3]+" - "+aDatSacado[4]+" - "+aDatSacado[5]+" - "+aDatSacado[6]			  ,oFont8)       //Endereço+Cidade+Estado+CEP  
-//Editado por João Paulo Santos em 21/10/2020
+oPrint:Say  (nRow1+0968,100 ,aDatSacado[3]+" - "+aDatSacado[4]+" - "+aDatSacado[5]+" - "+aDatSacado[6]			  ,oFont8)       //Endereï¿½o+Cidade+Estado+CEP  
+//Editado por Joï¿½o Paulo Santos em 21/10/2020
 //oPrint:Say  (nRow1+0940,100, StrZero(Day(aDadosTit[2]),2) +"/"+ StrZero(Month(aDadosTit[2]),2) +"/"+ Right(Str(Year(aDadosTit[2])),4),oFont10)
 
 oPrint:Say  (nRow1+0910,1010 ,"Nro.Documento"     	   										                      ,oFont8)
 oPrint:Say  (nRow1+0940,1110,aDadosTit[7]+aDadosTit[1]															  ,oFont10) //Prefixo +Numero+Parcela
 
-oPrint:Say  (nRow1+0910,1410,"Nosso Número"                                   									  ,oFont8)
+oPrint:Say  (nRow1+0910,1410,"Nosso Nï¿½mero"                                   									  ,oFont8)
 // original: cString := substr(aDadosTit[6],1,12)+"-"+substr(aDadosTit[6],13,1)
 cString :=  aDadosTit[6]
 oPrint:Say  (nRow1+0940,1510,cString												   		 				      ,oFont10) //Tipo do Titulo
@@ -398,20 +399,20 @@ oPrint:Say  (nRow1+0910,1810,"Valor do Documento"                               
 cString := Alltrim(Transform(aDadosTit[5],"@E 99,999,999.99"))
 nCol := 1810+(374-(len(cString)*22))
 oPrint:Say  (nRow1+0940,nCol,cString,oFont11c)
-oPrint:Say  (nRow1+1000,100 ,"Instruções (Todas informações deste bloqueto são de exclusiva responsabilidade do beneficiário.)",oFont8)
+oPrint:Say  (nRow1+1000,100 ,"Instruï¿½ï¿½es (Todas informaï¿½ï¿½es deste bloqueto sï¿½o de exclusiva responsabilidade do beneficiï¿½rio.)",oFont8)
 
 
-//auterado por João Paulo em 21/10/2020
+//auterado por Joï¿½o Paulo em 21/10/2020
 //oPrint:SayBitmap(nRow1+1050,500,"brasil_logo.bmp")
-oPrint:Say  (nRow1+1150,100 ,"Juros de Mora de 1% ao mês.",oFont10)
-oPrint:Say  (nRow1+1200,100 ,"Multa de 9% após 5 dias de Vencimento.",oFont10) //comentado por joao paulo em 24/03/2020 por rordem de sérgio
+oPrint:Say  (nRow1+1150,100 ,"Juros de Mora de 1% ao mï¿½s.",oFont10)
+oPrint:Say  (nRow1+1200,100 ,"Multa de 9% apï¿½s 5 dias de Vencimento.",oFont10) //comentado por joao paulo em 24/03/2020 por rordem de sï¿½rgio
 //oPrint:Say  (nRow1+1150,100 ,aBolText[1]+" "+AllTrim(Transform((aDadosTit[5]*0.01),"@E 99,999.99"))       ,oFont10)
 //oPrint:Say  (nRow1+1200,100 ,aBolText[2]+" "+AllTrim(Transform((aDadosTit[5]*(SE1->E1_PORCJUR/100)),"@E 99,999.99"))  ,oFont10)
 //oPrint:Say  (nRow1+1250,100 ,aBolText[3]                                        ,oFont10)
 nRow1 += 200
 oPrint:Line (nRow1+1500,100 ,nRow1+1500,2300 )
-oPrint:Say  (nRow1+1560,100 ,"Recebimento através de cheque nr.__________________ do Banco ______________________________________"      ,oFont10)
-oPrint:Say  (nRow1+1610,100 ,"Esta quitacão só terá validade após o pagamento do cheque"             ,oFont10)
+oPrint:Say  (nRow1+1560,100 ,"Recebimento atravï¿½s de cheque nr.__________________ do Banco ______________________________________"      ,oFont10)
+oPrint:Say  (nRow1+1610,100 ,"Esta quitacï¿½o sï¿½ terï¿½ validade apï¿½s o pagamento do cheque"             ,oFont10)
 oPrint:Say  (nRow1+1660,100 ,"pelo pagador",oFont10)
 
 oPrint:Say  (nRow1+1730,100 ,"Pagador/Avalista",oFont10)
@@ -440,7 +441,7 @@ oPrint:Line (nRow2+0710,500,nRow2+0630, 500)
 oPrint:Line (nRow2+0710,710,nRow2+0630, 710)
 
 //oPrint:SayBitmap(nRow2+0644,100,"santander_logo.bmp",10,60,,.t.)
-//comentado por joão dia 21/10/20
+//comentado por joï¿½o dia 21/10/20
 oPrint:SayBitmap(nRow1+1910,100,"brasil_logo.bmp",300,100,,.t.)
 oPrint:Say  (nRow2+0635,0513,aDadosBanco[1]+"-7",oFont21 )	// [1]Numero do Banco
 oPrint:Say  (nRow2+0635,0800,aCB_RN_NN[2],oFont15n)			//
@@ -457,17 +458,17 @@ oPrint:Line (nRow2+0910,1300,nRow2+1010,1300)
 oPrint:Line (nRow2+0910,1480,nRow2+1110,1480)
 
 oPrint:Say  (nRow2+0710,100 ,"Local de Pagamento",oFont8)
-oPrint:Say  (nRow2+0750,300 ,"Pagável em qualque banco",oFont10)
+oPrint:Say  (nRow2+0750,300 ,"Pagï¿½vel em qualque banco",oFont10)
 
 oPrint:Say  (nRow2+0710,1810,"Vencimento"                                     ,oFont8)
 cString	:= StrZero(Day(aDadosTit[4]),2) +"/"+ StrZero(Month(aDadosTit[4]),2) +"/"+ Right(Str(Year(aDadosTit[4])),4)
 nCol := 1810+(374-(len(cString)*22))
 oPrint:Say  (nRow2+0750,nCol,cString,oFont11c)
 
-oPrint:Say  (nRow2+0810,100 ,"Beneficiário"                                        ,oFont8)
+oPrint:Say  (nRow2+0810,100 ,"Beneficiï¿½rio"                                        ,oFont8)
 oPrint:Say  (nRow2+0850,100 ,alltrim(aDadosEmp[1])+" - "+aDadosEmp[6]	,oFont10) //Nome + CNPJ
 
-oPrint:Say  (nRow2+0810,1810,"Agência/Código do beneficiário",oFont8)
+oPrint:Say  (nRow2+0810,1810,"Agï¿½ncia/Cï¿½digo do beneficiï¿½rio",oFont8)
 cString := aDadosBanco[3]+"-"+aDadosBanco[7]+"/"+aDadosBanco[4]+"-"+aDadosBanco[5]//Alltrim(AllTrim(aDadosBanco[3])+"/"+Trim(SUBSTR(cConvenio,1,7)))
 nCol := 1810+(374-(len(cString)*22))
 oPrint:Say  (nRow2+0850,1820,cString,oFont11c)
@@ -478,7 +479,7 @@ oPrint:Say  (nRow2+0940,100, StrZero(Day(aDadosTit[2]),2) +"/"+ StrZero(Month(aD
 oPrint:Say  (nRow2+0910,505 ,"Nro.Documento"                                  ,oFont8)
 oPrint:Say  (nRow2+0940,605 ,aDadosTit[7]+aDadosTit[1]					      ,oFont10) //Prefixo +Numero+Parcela
 
-oPrint:Say  (nRow2+0910,1005,"Espécie Doc."                                   ,oFont8)
+oPrint:Say  (nRow2+0910,1005,"Espï¿½cie Doc."                                   ,oFont8)
 oPrint:Say  (nRow2+0940,1050,"DM"										      ,oFont10) //Tipo do Titulo
 
 oPrint:Say  (nRow2+0910,1305,"Aceite"                                         ,oFont8)
@@ -487,7 +488,7 @@ oPrint:Say  (nRow2+0940,1400,"N"                                              ,o
 oPrint:Say  (nRow2+0910,1485,"Data do Processamento"                           ,oFont8)
 oPrint:Say  (nRow2+0940,1550,StrZero(Day(aDadosTit[3]),2) +"/"+ StrZero(Month(aDadosTit[3]),2) +"/"+ Right(Str(Year(aDadosTit[3])),4),oFont10) // Data impressao
 
-oPrint:Say  (nRow2+0910,1810,"Nosso Número"                                    ,oFont8)
+oPrint:Say  (nRow2+0910,1810,"Nosso Nï¿½mero"                                    ,oFont8)
 //criar parametro para inserir convenio conforme as boa praticas.
 
 //original: cString := substr(aDadosTit[6],1,12)+"-"+substr(aDadosTit[6],13,1)
@@ -501,7 +502,7 @@ oPrint:Say  (nRow2+1033,100 ,"COBRANCA SIMPLES ECR"	                            
 //oPrint:Say  (nRow2+1010,505 ,"Carteira"                                       ,oFont8)
 //oPrint:Say  (nRow2+1030,555 ,aDadosBanco[6]                                  	,oFont10)
 
-oPrint:Say  (nRow2+1010,755 ,"Espécie"                                          ,oFont8)
+oPrint:Say  (nRow2+1010,755 ,"Espï¿½cie"                                          ,oFont8)
 oPrint:Say  (nRow2+1033,805 ,"REAL"                                             ,oFont10)
 
 oPrint:Say  (nRow2+1010,1005,"Quantidade"                                       ,oFont8)
@@ -512,9 +513,9 @@ cString := Alltrim(Transform(aDadosTit[5],"@E 99,999,999.99"))
 nCol := 1810+(374-(len(cString)*22))
 oPrint:Say  (nRow2+1030,nCol,cString ,oFont11c)
 
-oPrint:Say  (nRow2+1110,100 ,"Instruções (Todas informações deste bloqueto são de exclusiva responsabilidade do beneficiário)",oFont8)
-oPrint:Say  (nRow2+1150,100 ,"Juros de Mora de 1% ao mês.",oFont10)
-oPrint:Say  (nRow2+1200,100 ,"Multa de 9% após 5 dias de Vencimento.",oFont10) //comentado por joao paulo em 24/03/2020 por rordem de sérgio
+oPrint:Say  (nRow2+1110,100 ,"Instruï¿½ï¿½es (Todas informaï¿½ï¿½es deste bloqueto sï¿½o de exclusiva responsabilidade do beneficiï¿½rio)",oFont8)
+oPrint:Say  (nRow2+1150,100 ,"Juros de Mora de 1% ao mï¿½s.",oFont10)
+oPrint:Say  (nRow2+1200,100 ,"Multa de 9% apï¿½s 5 dias de Vencimento.",oFont10) //comentado por joao paulo em 24/03/2020 por rordem de sï¿½rgio
 //oPrint:Say  (nRow2+1150,100 ,aBolText[1]+" "+AllTrim(Transform((aDadosTit[5]*0.01),"@E 99,999.99"))       ,oFont10)
 //oPrint:Say  (nRow2+1200,100 ,aBolText[2]+" "+AllTrim(Transform((aDadosTit[5]*(SE1->E1_PORCJUR/100)),"@E 99,999.99"))  ,oFont10)
 //oPrint:Say  (nRow2+1250,100 ,aBolText[3]                                        ,oFont10)
@@ -522,7 +523,7 @@ oPrint:Say  (nRow2+1200,100 ,"Multa de 9% após 5 dias de Vencimento.",oFont10) /
 oPrint:Say  (nRow2+1110,1810,"(-)Desconto"                                      ,oFont8)
 oPrint:Say  (nRow2+1210,1810,"(-)Abatimento"                                    ,oFont8)
 oPrint:Say  (nRow2+1310,1810,"(+)Mora"                                          ,oFont8)
-oPrint:Say  (nRow2+1410,1810,"(+)Outros Acréscimos"                             ,oFont8)
+oPrint:Say  (nRow2+1410,1810,"(+)Outros Acrï¿½scimos"                             ,oFont8)
 oPrint:Say  (nRow2+1510,1810,"(=)Valor Cobrado"                                 ,oFont8)
 
 oPrint:Say  (nRow2+1610,100 ,"Pagador"                                          ,oFont8)
@@ -532,7 +533,7 @@ oPrint:Say  (nRow2+1690,400 ,aDatSacado[6]+"    "+aDatSacado[4]+" - "+aDatSacado
 
 
 oPrint:Say  (nRow2+1710,100 ,"Pagador/Avalista",oFont8)
-oPrint:Say  (nRow2+1750,1500,"Autenticação Mecânica",oFont8)
+oPrint:Say  (nRow2+1750,1500,"Autenticaï¿½ï¿½o Mecï¿½nica",oFont8)
 
 oPrint:Line (nRow2+0710,1800,nRow2+1800,1800 )
 oPrint:Line (nRow2+1210,1800,nRow2+1210,2300 )
@@ -549,22 +550,22 @@ oPrint:Line (nRow2+1800,100 ,nRow2+1800,2300 )
 //MSBAR("INT25",12.3,0.9,aCB_RN_NN[1],oPrint,.F.,,,0.0145,0.9,,,,.F.)
 MSBAR("INT25",23.9,1.5,aCB_RN_NN[1],oPrint,.F.,,,0.0250,1.3,,,,.F.)
 
-oPrint:EndPage() // Finaliza a página
+oPrint:EndPage() // Finaliza a pï¿½gina
 
 Return Nil
 
 /*/
-ÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜ
-±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±
-±±ÚÄÄÄÄÄÄÄÄÄÄÂÄÄÄÄÄÄÄÄÄÄÂÄÄÄÄÄÄÄÂÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÂÄÄÄÄÄÄÂÄÄÄÄÄÄÄÄÄÄ¿±±
-±±³Programa  ³ Modulo10 ³ Autor ³ Microsiga             ³ Data ³ 13/10/03 ³±±
-±±ÃÄÄÄÄÄÄÄÄÄÄÅÄÄÄÄÄÄÄÄÄÄÁÄÄÄÄÄÄÄÁÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÁÄÄÄÄÄÄÁÄÄÄÄÄÄÄÄÄÄ´±±
-±±³Descri‡…o ³ IMPRESSAO DO BOLETO LASE DO ITAU COM CODIGO DE BARRAS      ³±±
-±±ÃÄÄÄÄÄÄÄÄÄÄÅÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ´±±
-±±³Uso       ³ Especifico para Clientes Microsiga                         ³±±
-±±ÀÄÄÄÄÄÄÄÄÄÄÁÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ±±
-±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±
-ßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßß
+ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä¿ï¿½ï¿½
+ï¿½ï¿½ï¿½Programa  ï¿½ Modulo10 ï¿½ Autor ï¿½ Microsiga             ï¿½ Data ï¿½ 13/10/03 ï¿½ï¿½ï¿½
+ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä´ï¿½ï¿½
+ï¿½ï¿½ï¿½Descriï¿½ï¿½o ï¿½ IMPRESSAO DO BOLETO LASE DO ITAU COM CODIGO DE BARRAS      ï¿½ï¿½ï¿½
+ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä´ï¿½ï¿½
+ï¿½ï¿½ï¿½Uso       ï¿½ Especifico para Clientes Microsiga                         ï¿½ï¿½ï¿½
+ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ù±ï¿½
+ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 /*/                                                                          
 
 
@@ -572,25 +573,25 @@ Return Nil
 //                                        CALCULO DO DIGITO VERIFICADO DA LINHA DIGITAVEL
 //------------------------------------------------------------------------------------------------------------------------------
 /*
-ANEXO IV – CÁLCULO DO DÍGITO VERIFICADOR (DV) DA LINHA DIGITÁVEL
-(MÓDULO 10)
-A representação numérica do código de barras é composta, por cinco campos, sendo os
-três primeiros amarrados por DVs e calculados pelo módulo 10, conforme segue:
-a) O módulo 10 deverá ser utilizado para calcular o DV dos 03 (três) primeiros campos
-da linha digitável;
-b) Os multiplicadores começam com o número 2 (dois), sempre pela direita, alternandose
+ANEXO IV ï¿½ Cï¿½LCULO DO Dï¿½GITO VERIFICADOR (DV) DA LINHA DIGITï¿½VEL
+(Mï¿½DULO 10)
+A representaï¿½ï¿½o numï¿½rica do cï¿½digo de barras ï¿½ composta, por cinco campos, sendo os
+trï¿½s primeiros amarrados por DVs e calculados pelo mï¿½dulo 10, conforme segue:
+a) O mï¿½dulo 10 deverï¿½ ser utilizado para calcular o DV dos 03 (trï¿½s) primeiros campos
+da linha digitï¿½vel;
+b) Os multiplicadores comeï¿½am com o nï¿½mero 2 (dois), sempre pela direita, alternandose
 1 e 2;
-c) Multiplicar cada algarismo que compõe o número pelo seu respectivo peso
+c) Multiplicar cada algarismo que compï¿½e o nï¿½mero pelo seu respectivo peso
 (multiplicador):
-d) Caso o resultado da multiplicação seja maior que 9 (nove) deverão ser somados os
-algarismos do produto, até reduzi-lo a um único algarismo:
-a. Exemplo: Resultado igual a 18, então 1+8 = 9
+d) Caso o resultado da multiplicaï¿½ï¿½o seja maior que 9 (nove) deverï¿½o ser somados os
+algarismos do produto, atï¿½ reduzi-lo a um ï¿½nico algarismo:
+a. Exemplo: Resultado igual a 18, entï¿½o 1+8 = 9
 e) Subtrair o total apurado no item anterior, da dezena imediatamente superior ao total
 apurado:
-a. Exemplo: Resultado da soma igual a 25, então 30 - 25
-f) O resultado obtido será o dígito verificador do número;
-a. Exemplo: 30-25 = 5 então 5 é o Dígito Verificador
-g) Se o resultado da subtração for igual a 10 (dez), o dígito verificador será igual a 0
+a. Exemplo: Resultado da soma igual a 25, entï¿½o 30 - 25
+f) O resultado obtido serï¿½ o dï¿½gito verificador do nï¿½mero;
+a. Exemplo: 30-25 = 5 entï¿½o 5 ï¿½ o Dï¿½gito Verificador
+g) Se o resultado da subtraï¿½ï¿½o for igual a 10 (dez), o dï¿½gito verificador serï¿½ igual a 0
 (zero).
 */
 
@@ -623,40 +624,40 @@ End
 Return(D)
 
 /*/
-ÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜ
-±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±
-±±ÚÄÄÄÄÄÄÄÄÄÄÂÄÄÄÄÄÄÄÄÄÄÂÄÄÄÄÄÄÄÂÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÂÄÄÄÄÄÄÂÄÄÄÄÄÄÄÄÄÄ¿±±
-±±³Programa  ³ Modulo11 ³ Autor ³ Joao Paulo Santos     ³ Data ³ 15/12/20 ³±±
-±±ÃÄÄÄÄÄÄÄÄÄÄÅÄÄÄÄÄÄÄÄÄÄÁÄÄÄÄÄÄÄÁÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÁÄÄÄÄÄÄÁÄÄÄÄÄÄÄÄÄÄ´±±
-±±³Descri‡…o ³ IMPRESSAO DO BOLETO BANCO DO BRASIL COM CODIGO DE BARRAS   ³±±
-±±ÃÄÄÄÄÄÄÄÄÄÄÅÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ´±±
-±±³Uso       ³ Especifico para Clientes Microsiga                         ³±±
-±±ÀÄÄÄÄÄÄÄÄÄÄÁÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ±±
-±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±
-ßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßß
+ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä¿ï¿½ï¿½
+ï¿½ï¿½ï¿½Programa  ï¿½ Modulo11 ï¿½ Autor ï¿½ Joao Paulo Santos     ï¿½ Data ï¿½ 15/12/20 ï¿½ï¿½ï¿½
+ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä´ï¿½ï¿½
+ï¿½ï¿½ï¿½Descriï¿½ï¿½o ï¿½ IMPRESSAO DO BOLETO BANCO DO BRASIL COM CODIGO DE BARRAS   ï¿½ï¿½ï¿½
+ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä´ï¿½ï¿½
+ï¿½ï¿½ï¿½Uso       ï¿½ Especifico para Clientes Microsiga                         ï¿½ï¿½ï¿½
+ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ù±ï¿½
+ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 /*/                                   
 //Regra bancaria:
 /*/ 15/12/2020 - Joao Paulo Santos da Silva 
-ANEXO V – CÁLCULO DO DÍGITO VERIFICADOR (DV) DO CÓDIGO DE BARRAS (MÓDULO 11)
-Por definição do BACEN, na 5ª posição do código de barras, deve ser indicado, obrigatoriamente, o “dígito verificador” (DV), do Código de Barras, calculado pelo módulo 11, conforme segue:
-a) O código de barras possui 44 (quarenta e quatro) posições, incluindo o DV;
-b) Para calcular o DV considerar 43 posições do Código de Barras sendo da posição 1 a 4 e da posição 6 a 44;
-c) Multiplicar cada algarismo que compõe o número pelo seu respectivo multiplicador (peso), iniciando-se pela 44a posição e saltando a 5a posição;
+ANEXO V ï¿½ Cï¿½LCULO DO Dï¿½GITO VERIFICADOR (DV) DO Cï¿½DIGO DE BARRAS (Mï¿½DULO 11)
+Por definiï¿½ï¿½o do BACEN, na 5ï¿½ posiï¿½ï¿½o do cï¿½digo de barras, deve ser indicado, obrigatoriamente, o ï¿½dï¿½gito verificadorï¿½ (DV), do Cï¿½digo de Barras, calculado pelo mï¿½dulo 11, conforme segue:
+a) O cï¿½digo de barras possui 44 (quarenta e quatro) posiï¿½ï¿½es, incluindo o DV;
+b) Para calcular o DV considerar 43 posiï¿½ï¿½es do Cï¿½digo de Barras sendo da posiï¿½ï¿½o 1 a 4 e da posiï¿½ï¿½o 6 a 44;
+c) Multiplicar cada algarismo que compï¿½e o nï¿½mero pelo seu respectivo multiplicador (peso), iniciando-se pela 44a posiï¿½ï¿½o e saltando a 5a posiï¿½ï¿½o;
 d) Os multiplicadores (pesos) variam de 2 a 9;
-e) O primeiro dígito da direita para a esquerda deverá ser multiplicado por 2, o segundo por 3 e assim sucessivamente;
-f) Os resultados das multiplicações devem ser somados:
+e) O primeiro dï¿½gito da direita para a esquerda deverï¿½ ser multiplicado por 2, o segundo por 3 e assim sucessivamente;
+f) Os resultados das multiplicaï¿½ï¿½es devem ser somados:
 a) Exemplo:(6 X 2) + (3 X 1) + (4 X 8) + ... + (4 X 0) = 712
-g) O total da soma deverá ser dividido por 11:
+g) O total da soma deverï¿½ ser dividido por 11:
 a. Exemplo: 712/11 = 64. Resto igual a 8;
-h) O resto da divisão deverá ser subtraído de 11:
-a. Exemplo: 11 - 8 = 3, Portando “3” é o Dígito verificador
-i) Se o resultado da subtração for:
+h) O resto da divisï¿½o deverï¿½ ser subtraï¿½do de 11:
+a. Exemplo: 11 - 8 = 3, Portando ï¿½3ï¿½ ï¿½ o Dï¿½gito verificador
+i) Se o resultado da subtraï¿½ï¿½o for:
 I - igual a 0.....................D.V. igual a 1
 II - igual a 10....................D.V. igual a 1
 III - igual a 11....................D.V. igual a 1
-IV - diferente de 10 e 11..........D.V. será o próprio dígito, no caso do exemplo “3”
-OBS: EM NENHUMA HIPOTESE PODERÁ SER UTILIZADO O DÍGITO "0" (ZERO) NA QUINTA POSIÇÃO DO CÓDIGO DE BARRAS.
-j) O resultado deste cálculo deverá ser incluído na 5a posição do código de barras.
+IV - diferente de 10 e 11..........D.V. serï¿½ o prï¿½prio dï¿½gito, no caso do exemplo ï¿½3ï¿½
+OBS: EM NENHUMA HIPOTESE PODERï¿½ SER UTILIZADO O Dï¿½GITO "0" (ZERO) NA QUINTA POSIï¿½ï¿½O DO Cï¿½DIGO DE BARRAS.
+j) O resultado deste cï¿½lculo deverï¿½ ser incluï¿½do na 5a posiï¿½ï¿½o do cï¿½digo de barras.
 /*/
 
 Static Function Modulo11(cData,lNossoNum_DV)
@@ -680,36 +681,36 @@ EndIf
 Return(D)
 
 /*/
-ÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜ
-±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±
-±±ÚÄÄÄÄÄÄÄÄÄÄÂÄÄÄÄÄÄÄÄÄÄÂÄÄÄÄÄÄÄÂÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÂÄÄÄÄÄÄÂÄÄÄÄÄÄÄÄÄÄ¿±±
-±±³Programa  ³ mNossDv  ³ Autor ³ Joao Paulo Santos     ³ Data ³ 15/12/20 ³±±
-±±ÃÄÄÄÄÄÄÄÄÄÄÅÄÄÄÄÄÄÄÄÄÄÁÄÄÄÄÄÄÄÁÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÁÄÄÄÄÄÄÁÄÄÄÄÄÄÄÄÄÄ´±±
-±±³Descri‡…o ³ CALCULO DO DIGITO VERIFICADO DO NOSSO NUMERO               ³±±
-±±ÃÄÄÄÄÄÄÄÄÄÄÅÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ´±±
-±±³Uso       ³ Especifico para Clientes Wings                             ³±±
-±±ÀÄÄÄÄÄÄÄÄÄÄÁÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ±±
-±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±
-ßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßß
+ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä¿ï¿½ï¿½
+ï¿½ï¿½ï¿½Programa  ï¿½ mNossDv  ï¿½ Autor ï¿½ Joao Paulo Santos     ï¿½ Data ï¿½ 15/12/20 ï¿½ï¿½ï¿½
+ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä´ï¿½ï¿½
+ï¿½ï¿½ï¿½Descriï¿½ï¿½o ï¿½ CALCULO DO DIGITO VERIFICADO DO NOSSO NUMERO               ï¿½ï¿½ï¿½
+ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä´ï¿½ï¿½
+ï¿½ï¿½ï¿½Uso       ï¿½ Especifico para Clientes Wings                             ï¿½ï¿½ï¿½
+ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ù±ï¿½
+ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 /*/
 //Regra:
-//OB1. João paulo Santos da Silva, verifica nome da variavél que está recebendo os valores cData recebendo nosso numero,
+//OB1. Joï¿½o paulo Santos da Silva, verifica nome da variavï¿½l que estï¿½ recebendo os valores cData recebendo nosso numero,
 //lNossoNum_DV recebendo valor booleano, analisar custo de troca.
-//ANEXO VIII – COMPOSIÇÃO DO CAMPO “NOSSO NÚMERO” – CONVÊNIO DE 7 POSIÇÕES
-//FORMATO “NOSSO NÚMERO” PARA CONVÊNIOS ACIMA DE 1.000.000 (UM MILHÃO): A composição do nosso número deve obedecer as seguintes regras:
-//CCCCCCCNNNNNNNNNN convênios com numeração acima de 1.000.000, onde:
-//"C" - é o número do convênio fornecido pelo Banco (número fixo e não pode ser alterado)
-//"N" - é um sequencial atribuído pelo cliente
+//ANEXO VIII ï¿½ COMPOSIï¿½ï¿½O DO CAMPO ï¿½NOSSO Nï¿½MEROï¿½ ï¿½ CONVï¿½NIO DE 7 POSIï¿½ï¿½ES
+//FORMATO ï¿½NOSSO Nï¿½MEROï¿½ PARA CONVï¿½NIOS ACIMA DE 1.000.000 (UM MILHï¿½O): A composiï¿½ï¿½o do nosso nï¿½mero deve obedecer as seguintes regras:
+//CCCCCCCNNNNNNNNNN convï¿½nios com numeraï¿½ï¿½o acima de 1.000.000, onde:
+//"C" - ï¿½ o nï¿½mero do convï¿½nio fornecido pelo Banco (nï¿½mero fixo e nï¿½o pode ser alterado)
+//"N" - ï¿½ um sequencial atribuï¿½do pelo cliente
 //REGRA BANCARIA DO MODULO 11
-//a) O módulo 11 é utilizado para montagem dos campos nosso-número, código do Beneficiário e prefixo da agência, que serão impressos nos respectivos campos do boleto de cobrança;
-//b) Cada algarismo que compõe o nosso-número é multiplicado pelo respectivo multiplicador (peso):
+//a) O mï¿½dulo 11 ï¿½ utilizado para montagem dos campos nosso-nï¿½mero, cï¿½digo do Beneficiï¿½rio e prefixo da agï¿½ncia, que serï¿½o impressos nos respectivos campos do boleto de cobranï¿½a;
+//b) Cada algarismo que compï¿½e o nosso-nï¿½mero ï¿½ multiplicado pelo respectivo multiplicador (peso):
 //I. Os multiplicadores (pesos) variam de 9 a 2, da direita para a esquerda;
-//II. O primeiro dígito da direita para a esquerda deverá ser multiplicado por 9, o segundo por 8 e assim sucessivamente;
-//c) Os resultados das multiplicações são somados;
-//d) O total da soma é divido por onze;
-//I. Se o resto for menor que 10 (dez) o DV será igual ao resto;
-//II. Se o resto for igual a 10 /dez/ o DV será igual a X;
-//III. Se o resto for igual a 0 /zero/ o DV será igual a 0;
+//II. O primeiro dï¿½gito da direita para a esquerda deverï¿½ ser multiplicado por 9, o segundo por 8 e assim sucessivamente;
+//c) Os resultados das multiplicaï¿½ï¿½es sï¿½o somados;
+//d) O total da soma ï¿½ divido por onze;
+//I. Se o resto for menor que 10 (dez) o DV serï¿½ igual ao resto;
+//II. Se o resto for igual a 10 /dez/ o DV serï¿½ igual a X;
+//III. Se o resto for igual a 0 /zero/ o DV serï¿½ igual a 0;
 //------------------------------------------------------------------------------------------------------------------------------
 //                                        CALCULO DO DIGITO VERIFICADO DO NOSSO NUMERO
 //------------------------------------------------------------------------------------------------------------------------------
@@ -746,20 +747,20 @@ Return(D)
 
 
 /*/
-ÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜ
-±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±
-±±ÚÄÄÄÄÄÄÄÄÄÄÂÄÄÄÄÄÄÄÄÄÄÂÄÄÄÄÄÄÄÂÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÂÄÄÄÄÄÄÂÄÄÄÄÄÄÄÄÄÄ¿±±
-±±³Programa  ³Ret_cBarra  ³ Autor ³ Microsiga           ³ Data ³ 15/12/20 ³±±
-±±ÃÄÄÄÄÄÄÄÄÄÄÅÄÄÄÄÄÄÄÄÄÄÁÄÄÄÄÄÄÄÁÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÁÄÄÄÄÄÄÁÄÄÄÄÄÄÄÄÄÄ´±±
-±±³Descri‡…o ³ IMPRESSAO DO BOLETO LASE DO BB COM CODIGO DE BARRAS        ³±±
-±±ÃÄÄÄÄÄÄÄÄÄÄÅÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ´±±
-±±³Uso       ³ Especifico para Cliente Wings                              ³±±
-±±ÀÄÄÄÄÄÄÄÄÄÄÁÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ±±
-±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±
-ßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßß
+ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä¿ï¿½ï¿½
+ï¿½ï¿½ï¿½Programa  ï¿½Ret_cBarra  ï¿½ Autor ï¿½ Microsiga           ï¿½ Data ï¿½ 15/12/20 ï¿½ï¿½ï¿½
+ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä´ï¿½ï¿½
+ï¿½ï¿½ï¿½Descriï¿½ï¿½o ï¿½ IMPRESSAO DO BOLETO LASE DO BB COM CODIGO DE BARRAS        ï¿½ï¿½ï¿½
+ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä´ï¿½ï¿½
+ï¿½ï¿½ï¿½Uso       ï¿½ Especifico para Cliente Wings                              ï¿½ï¿½ï¿½
+ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ù±ï¿½
+ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 /*/
 
-//[1]Numero do Banco[3]   Agência[4]    Conta CC[5]     Dígitocc      E1_NUMBCO    CALCULO   E1_VENCTO   EE_CODEMP
+//[1]Numero do Banco[3]   Agï¿½ncia[4]    Conta CC[5]     Dï¿½gitocc      E1_NUMBCO    CALCULO   E1_VENCTO   EE_CODEMP
 Static Function Ret_cBarra(cBanco,cAgencia,cConta,cDacCC,cNroDoc,nValor,dVencto,cConvenio)
 
 LOCAL cValorFinal := strzero(nValor*100,10)
@@ -776,39 +777,39 @@ LOCAL cMoeda        := "9"
 Local cBanco        := "001"        
 
 //------------------------------------------------------------------------------------------------------------------------------
-//                                                   DEFINIÇÃO DO NOSSO NUMERO
+//                                                   DEFINIï¿½ï¿½O DO NOSSO NUMERO
 //------------------------------------------------------------------------------------------------------------------------------
 //14/12/2020
-//OB1. João paulo Santos da Silva, verifica nome da variavél que está recebendo os valores cData recebendo nosso numero,
+//OB1. Joï¿½o paulo Santos da Silva, verifica nome da variavï¿½l que estï¿½ recebendo os valores cData recebendo nosso numero,
 //lNossoNum_DV recebendo valor booleano, analisar custo de troca.
-//ANEXO VIII – COMPOSIÇÃO DO CAMPO “NOSSO NÚMERO” – CONVÊNIO DE 7 POSIÇÕES
-//FORMATO “NOSSO NÚMERO” PARA CONVÊNIOS ACIMA DE 1.000.000 (UM MILHÃO): A composição do nosso número deve obedecer as seguintes regras:
-//CCCCCCCNNNNNNNNNN convênios com numeração acima de 1.000.000, onde:
-//"C" - é o número do convênio fornecido pelo Banco (número fixo e não pode ser alterado)
-//"N" - é um sequencial atribuído pelo cliente
+//ANEXO VIII ï¿½ COMPOSIï¿½ï¿½O DO CAMPO ï¿½NOSSO Nï¿½MEROï¿½ ï¿½ CONVï¿½NIO DE 7 POSIï¿½ï¿½ES
+//FORMATO ï¿½NOSSO Nï¿½MEROï¿½ PARA CONVï¿½NIOS ACIMA DE 1.000.000 (UM MILHï¿½O): A composiï¿½ï¿½o do nosso nï¿½mero deve obedecer as seguintes regras:
+//CCCCCCCNNNNNNNNNN convï¿½nios com numeraï¿½ï¿½o acima de 1.000.000, onde:
+//"C" - ï¿½ o nï¿½mero do convï¿½nio fornecido pelo Banco (nï¿½mero fixo e nï¿½o pode ser alterado)
+//"N" - ï¿½ um sequencial atribuï¿½do pelo cliente
 //REGRA BANCARIA DO MODULO 11
-//a) O módulo 11 é utilizado para montagem dos campos nosso-número, código do Beneficiário e prefixo da agência, que serão impressos nos respectivos campos do boleto de cobrança;
-//b) Cada algarismo que compõe o nosso-número é multiplicado pelo respectivo multiplicador (peso):
+//a) O mï¿½dulo 11 ï¿½ utilizado para montagem dos campos nosso-nï¿½mero, cï¿½digo do Beneficiï¿½rio e prefixo da agï¿½ncia, que serï¿½o impressos nos respectivos campos do boleto de cobranï¿½a;
+//b) Cada algarismo que compï¿½e o nosso-nï¿½mero ï¿½ multiplicado pelo respectivo multiplicador (peso):
 //I. Os multiplicadores (pesos) variam de 9 a 2, da direita para a esquerda;
-//II. O primeiro dígito da direita para a esquerda deverá ser multiplicado por 9, o segundo por 8 e assim sucessivamente;
-//c) Os resultados das multiplicações são somados;
-//d) O total da soma é divido por onze;
-//I. Se o resto for menor que 10 (dez) o DV será igual ao resto;
-//II. Se o resto for igual a 10 /dez/ o DV será igual a X;
-//III. Se o resto for igual a 0 /zero/ o DV será igual a 0;
+//II. O primeiro dï¿½gito da direita para a esquerda deverï¿½ ser multiplicado por 9, o segundo por 8 e assim sucessivamente;
+//c) Os resultados das multiplicaï¿½ï¿½es sï¿½o somados;
+//d) O total da soma ï¿½ divido por onze;
+//I. Se o resto for menor que 10 (dez) o DV serï¿½ igual ao resto;
+//II. Se o resto for igual a 10 /dez/ o DV serï¿½ igual a X;
+//III. Se o resto for igual a 0 /zero/ o DV serï¿½ igual a 0;
 
 cS    := SubStr(cConvenio,1,7) + AllTrim(StrZero(Val(cNroDoc),10))
 nDvnn := mNossDv(cS,.T.)      // Corrigido por joao paulo em 14/12/2020 para atender as regras bancaria do BB
-cNN   := cS                   // Alterado por João Paulo em 14/12/2020 não necessário uso de DV + AllTrim(Str(nDvnn))
+cNN   := cS                   // Alterado por Joï¿½o Paulo em 14/12/2020 nï¿½o necessï¿½rio uso de DV + AllTrim(Str(nDvnn))
 
 //------------------------------------------------------------------------------------------------------------------------------
-//                                                 DEFINIÇÃO DO CÓDIGO DE BARRAS
+//                                                 DEFINIï¿½ï¿½O DO Cï¿½DIGO DE BARRAS
 //------------------------------------------------------------------------------------------------------------------------------
 /* 14/12/2020
-Posição  Tamanho  Picture      Conteúdo
-01 a 03    03      9(03)       Código do Banco na Câmara de Compensação = '001' 
-04 a 04    01      9(01)       Código da Moeda = 9 (Real)
-05 a 05    01      9(01)       Digito Verificador (DV) do código de Barras* 
+Posiï¿½ï¿½o  Tamanho  Picture      Conteï¿½do
+01 a 03    03      9(03)       Cï¿½digo do Banco na Cï¿½mara de Compensaï¿½ï¿½o = '001' 
+04 a 04    01      9(01)       Cï¿½digo da Moeda = 9 (Real)
+05 a 05    01      9(01)       Digito Verificador (DV) do cï¿½digo de Barras* 
 06 a 09    04      9(04)       Fator de Vencimento **
 10 a 19    10      9(08)V(2)   Valor 
 20 a 44    03      9(03)       Campo Livre *** 
@@ -821,17 +822,17 @@ cS    := cBanco + cMoeda + cFator +  cValorFinal + "000000" + cNN + cCart
 
 
 //------------------------------------------------------------------------------------------------------------------------------
-//	                                            DEFINÇÃO DA LINHA DIGITAVEL
+//	                                            DEFINï¿½ï¿½O DA LINHA DIGITAVEL
 //------------------------------------------------------------------------------------------------------------------------------
-// REPRESENTAÇÃO NUMERICA    
+// REPRESENTAï¿½ï¿½O NUMERICA    
 // AAABC.CCCCX DDDDD.DDDDDY EEEEE.EEEEEZ K UUUUVVVVVVVVVV
 // Campo 1       Campo 2      Campo 3    4     Campo 5
 
 // CAMPO 1: AAABC.CCCCX
-// A = Número Código da IF Destinatária no SILOC
-// B = Código da moeda (9) -Real
-// C = Posições 20 a 24 do código de barras
-// X = DV do Campo 1 (calculado de acordo com o Módulo 10 – anexo IV)
+// A = Nï¿½mero Cï¿½digo da IF Destinatï¿½ria no SILOC
+// B = Cï¿½digo da moeda (9) -Real
+// C = Posiï¿½ï¿½es 20 a 24 do cï¿½digo de barras
+// X = DV do Campo 1 (calculado de acordo com o Mï¿½dulo 10 ï¿½ anexo IV)
 
 cS     := cBanco + cMoeda + substr(cCB,20,5)
 	nDv    := modulo10(cS)
@@ -839,29 +840,29 @@ cS     := cBanco + cMoeda + substr(cCB,20,5)
 
 // CAMPO 2:
 // Campo 2: DDDDD.DDDDDY
-// D = Posições 25 a 34 do código de barras
-// Y = DV do Campo 2 (calculado de acordo com o Módulo 10 – anexo IV)
+// D = Posiï¿½ï¿½es 25 a 34 do cï¿½digo de barras
+// Y = DV do Campo 2 (calculado de acordo com o Mï¿½dulo 10 ï¿½ anexo IV)
 
 cS    := substr(cCB,25,10)
 	nDv   := modulo10(cS)
 		cRN   := cRN + left(cS,5) + "." + right(cS,5) + AllTrim(Str(nDv)) + " "
 
 // CAMPO 3: EEEEE.EEEEEZ
-// F = Posições 35 a 44 do código de barras
-// Z =DV do Campo 3 (calculado de acordo com o Módulo 10 – anexo IV)
+// F = Posiï¿½ï¿½es 35 a 44 do cï¿½digo de barras
+// Z =DV do Campo 3 (calculado de acordo com o Mï¿½dulo 10 ï¿½ anexo IV)
 
 cS    := substr(cCB,35,10)
 	nDv   := modulo10(cS)
 		cRN   := cRN + left(cS,5) + "." + right(cS,5) + AllTrim(Str(nDv)) + " "
 
 // CAMPO 4: K
-// K = DV do código de barras (calculado de acordo com o Módulo 11 – anexo VI)
+// K = DV do cï¿½digo de barras (calculado de acordo com o Mï¿½dulo 11 ï¿½ anexo VI)
 
 cRN   := cRN + AllTrim(Str(nDvcb)) + " "
 
 // CAMPO 5: UUUUVVVVVVVVVV
-// U = Fator de Vencimento (cálculo conforme anexo V)
-// V = Valor do boleto de pagamento (com duas casas decimais, sem ponto e vírgula. Em caso de moeda variável, informar zeros)
+// U = Fator de Vencimento (cï¿½lculo conforme anexo V)
+// V = Valor do boleto de pagamento (com duas casas decimais, sem ponto e vï¿½rgula. Em caso de moeda variï¿½vel, informar zeros)
 
 cRN   := cRN + cFator + StrZero((nValor*100),10)
 
@@ -869,16 +870,16 @@ cRN   := cRN + cFator + StrZero((nValor*100),10)
 Return({cCB,cRN,cNN})
 
 /*/
-±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±
-±±ÚÄÄÄÄÄÄÄÄÄÄÂÄÄÄÄÄÄÄÄÄÄÄÄÄÄÂÄÄÄÄÄÄÄÂÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÂÄÄÄÄÄÄÂÄÄÄÄÄÄÄÄÄÄ¿±±
-±±³Fun‡…o    ³ AjustaSx1    ³ Autor ³ Microsiga            	³ Data ³ 13/10/03 ³±±
-±±ÃÄÄÄÄÄÄÄÄÄÄÅÄÄÄÄÄÄÄÄÄÄÄÄÄÄÁÄÄÄÄÄÄÄÁÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÁÄÄÄÄÄÄÁÄÄÄÄÄÄÄÄÄÄ´±±
-±±³Descri‡…o ³ Verifica/cria SX1 a partir de matriz para verificacao          ³±±
-±±ÃÄÄÄÄÄÄÄÄÄÄÅÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ´±±
-±±³Uso       ³ Especifico para Clientes Microsiga                    	  	  ³±±
-±±ÀÄÄÄÄÄÄÄÄÄÄÁÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ±±
-±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±
-ßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßß
+ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä¿ï¿½ï¿½
+ï¿½ï¿½ï¿½Funï¿½ï¿½o    ï¿½ AjustaSx1    ï¿½ Autor ï¿½ Microsiga            	ï¿½ Data ï¿½ 13/10/03 ï¿½ï¿½ï¿½
+ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä´ï¿½ï¿½
+ï¿½ï¿½ï¿½Descriï¿½ï¿½o ï¿½ Verifica/cria SX1 a partir de matriz para verificacao          ï¿½ï¿½ï¿½
+ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä´ï¿½ï¿½
+ï¿½ï¿½ï¿½Uso       ï¿½ Especifico para Clientes Microsiga                    	  	  ï¿½ï¿½ï¿½
+ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ù±ï¿½
+ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 /*/
 Static Function AjustaSX1(cPerg, aPergs)
 
@@ -951,16 +952,16 @@ For nX:=1 to Len(aPergs)
 Next
 
 /*/
-±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±
-±±ÚÄÄÄÄÄÄÄÄÄÄÂÄÄÄÄÄÄÄÄÄÄÄÄÄÄÂÄÄÄÄÄÄÄÂÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÂÄÄÄÄÄÄÂÄÄÄÄÄÄÄÄÄÄ¿±±
-±±³Fun‡…o    ³ CONTASAN     ³ Autor ³ Alexandre            	³ Data ³ 10/04/08 ³±±
-±±ÃÄÄÄÄÄÄÄÄÄÄÅÄÄÄÄÄÄÄÄÄÄÄÄÄÄÁÄÄÄÄÄÄÄÁÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÁÄÄÄÄÄÄÁÄÄÄÄÄÄÄÄÄÄ´±±
-±±³Descri‡…o ³ AJUSTA O NUMERO DA CONTA TIRA OS "-" QUE O USUARIO COLOCO      ³±±
-±±ÃÄÄÄÄÄÄÄÄÄÄÅÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ´±±
-±±³Uso       ³ Especifico para Clientes Microsiga                    	  	  ³±±
-±±ÀÄÄÄÄÄÄÄÄÄÄÁÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ±±
-±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±
-ßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßß
+ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä¿ï¿½ï¿½
+ï¿½ï¿½ï¿½Funï¿½ï¿½o    ï¿½ CONTASAN     ï¿½ Autor ï¿½ Alexandre            	ï¿½ Data ï¿½ 10/04/08 ï¿½ï¿½ï¿½
+ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä´ï¿½ï¿½
+ï¿½ï¿½ï¿½Descriï¿½ï¿½o ï¿½ AJUSTA O NUMERO DA CONTA TIRA OS "-" QUE O USUARIO COLOCO      ï¿½ï¿½ï¿½
+ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä´ï¿½ï¿½
+ï¿½ï¿½ï¿½Uso       ï¿½ Especifico para Clientes Microsiga                    	  	  ï¿½ï¿½ï¿½
+ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ù±ï¿½
+ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 /*/
 Static FUNCTION CONTASAN(cCONTA)
 cCONTA := PADL(LEFT(cCONTA,2)+"0"+STRTRAN(SUBSTR(cCONTA,4,LEN(cCONTA)),"-",""),10,"0")
@@ -997,7 +998,7 @@ For i:=1 to Len(aRegs)
 Next
 
 DBSkip()
-             //verificar uso de variável x1_grupo a mesma se encontra sem referencia att, joao paulo santos
+             //verificar uso de variï¿½vel x1_grupo a mesma se encontra sem referencia att, joao paulo santos
 do while x1_grupo == cPerg
 	RecLock("SX1", .F.)
 	DBDelete()
@@ -1012,7 +1013,7 @@ Return
 static function SMPESSOA(p_cCLIENTE,p_cLOJA)
 // Criada por Fernando Lins em: 28-06-2017
 // Objetivo, trazer apenas clientes que possuam cadastros do tipo pessoa juridica A1_PESSOA = "J"
-// chamado criado pela wings para a Semar, Nº:
+// chamado criado pela wings para a Semar, Nï¿½:
 
 Local cPessoa := "F"
 
