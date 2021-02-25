@@ -985,7 +985,6 @@ AADD(aRegs,{cPerg,"06","Ate a Parcela        ?","","","mv_ch6","C", 1,0,0,"G",""
 AADD(aRegs,{cPerg,"07","Do Bordero           ?","","","mv_ch7","C", 6,0,0,"G","","mv_par07","","","","","","","","","","","","","","","","","","","","","","","","","",""})
 AADD(aRegs,{cPerg,"08","Ate o Bordero        ?","","","mv_ch8","C", 6,0,0,"G","","mv_par08","","","","","","","","","","","","","","","","","","","","","","","","","",""})
 
-
 For i:=1 to Len(aRegs)
 	If ! DBSeek(cPerg+aRegs[i,2])
 		RecLock("SX1",.T.)
