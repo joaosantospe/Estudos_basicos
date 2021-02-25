@@ -1038,6 +1038,7 @@ TcQuery cSq02 New Alias (wAliasQRY)
 lRet:= !empty((wAliasQRY)->A1_COD) */
 cPessoa := POSICIONE("SA1", 1, xFilial("SA1")+p_cCLIENTE+p_cLOJA,"A1_PESSOA")
 
+//teste
 
 return cPessoa
 
