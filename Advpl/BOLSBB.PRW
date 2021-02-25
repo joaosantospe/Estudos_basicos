@@ -974,6 +974,7 @@ DBSetOrder(1)
 cPerg := "BOLSBB"
 cPerg := PADR(cPerg,10)
 aRegs:={}
+cGrupoAtual:=''
 
 // Grupo/Ordem/Pergunta/Variavel/Tipo/Tamanho/Decimal/Presel/GSC/Valid/Var01/Def01/Cnt01/Var02/Def02/Cnt02/Var03/Def03/Cnt03/Var04/Def04/Cnt04/Var05/Def05/Cnt05
 Aadd(aRegs,{cPerg,"01","Do Prefixo           ?","","","mv_ch1","C", 3,0,0,"G","","mv_par01","","","","","","","","","","","","","","","","","","","","","","","","","",""})
@@ -995,10 +996,10 @@ For i:=1 to Len(aRegs)
 	Endif
 Next
 
-
 DBSkip()
-             //verificar uso de vari�vel x1_grupo a mesma se encontra sem referencia att, joao paulo santos
-do while x1_grupo == cPerg
+          cGrupoAtual:=x1_grupo
+		     //verificar uso de vari�vel x1_grupo a mesma se encontra sem referencia att, joao paulo santos
+do while cGrupoAtual == cPerg
 	RecLock("SX1", .F.)
 	DBDelete()
 	DBSkip()
