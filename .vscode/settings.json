@@ -1,5 +1,6 @@
 {
     "totvsLanguageServer.welcomePage": false,
     "totvsLanguageServer.askCompileResult": false,
-    "totvsLanguageServer.askEncodingChange": false
+    "totvsLanguageServer.askEncodingChange": false,
+    "advpl.debug_multiThread": true
 }
