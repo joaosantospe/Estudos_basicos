@@ -11,5 +11,30 @@
 			"isMultiSession": true,
 			"enableTableSync": true
 		}
-	]
+	],
+	"lastPrograms": [
+		{
+			"args": [],
+			"label": "BOLSBB",
+			"description": ""
+		},
+		{
+			"args": [],
+			"label": "ValidPerg",
+			"description": ""
+		},
+		{
+			"args": [],
+			"label": "TOTVS",
+			"description": ""
+		},
+		{
+			"args": [
+				"()"
+			],
+			"label": "ValidPerg",
+			"description": "()"
+		}
+	],
+	"lastProgramExecuted": "ValidPerg"
 }
