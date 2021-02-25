@@ -13,7 +13,7 @@
 �����������������������������������������������������������������������������
 �����������������������������������������������������������������������������
 /*/
-User Function SMBOLBB()
+User Function BOLSBB()
 
 LOCAL	aPergs := {}
 LOCAL   aMarked    := {}
@@ -994,6 +994,7 @@ For i:=1 to Len(aRegs)
 		MsUnlock()
 	Endif
 Next
+
 
 DBSkip()
              //verificar uso de vari�vel x1_grupo a mesma se encontra sem referencia att, joao paulo santos
