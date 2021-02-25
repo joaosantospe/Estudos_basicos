@@ -974,8 +974,8 @@ DBSetOrder(1)
 cPerg := "BOLSBB"
 cPerg := PADR(cPerg,10)
 aRegs:={}
-cGrupoAtual:=''
 
+// Adicionando elementos ao array aregs
 // Grupo/Ordem/Pergunta/Variavel/Tipo/Tamanho/Decimal/Presel/GSC/Valid/Var01/Def01/Cnt01/Var02/Def02/Cnt02/Var03/Def03/Cnt03/Var04/Def04/Cnt04/Var05/Def05/Cnt05
 Aadd(aRegs,{cPerg,"01","Do Prefixo           ?","","","mv_ch1","C", 3,0,0,"G","","mv_par01","","","","","","","","","","","","","","","","","","","","","","","","","",""})
 Aadd(aRegs,{cPerg,"02","Ate o Prefixo        ?","","","mv_ch2","C", 3,0,0,"G","","mv_par02","","","","","","","","","","","","","","","","","","","","","","","","","",""})
@@ -986,22 +986,22 @@ AADD(aRegs,{cPerg,"06","Ate a Parcela        ?","","","mv_ch6","C", 1,0,0,"G",""
 AADD(aRegs,{cPerg,"07","Do Bordero           ?","","","mv_ch7","C", 6,0,0,"G","","mv_par07","","","","","","","","","","","","","","","","","","","","","","","","","",""})
 AADD(aRegs,{cPerg,"08","Ate o Bordero        ?","","","mv_ch8","C", 6,0,0,"G","","mv_par08","","","","","","","","","","","","","","","","","","","","","","","","","",""})
 
+//Estrutua de repetição 
 For i:=1 to Len(aRegs)
 	If ! DBSeek(cPerg+aRegs[i,2])
 		RecLock("SX1",.T.)
-		For j:=1 to Max(39, Len(aRegs[i])) //fCount()
-			FieldPut(j,aRegs[i,j])
-		Next
+	 		For j:=1 to Max(39, Len(aRegs[i]))
+				FieldPut(j,aRegs[i,j])
+			Next
 		MsUnlock()
 	Endif
 Next
 
 DBSkip()
-          cGrupoAtual:=x1_grupo
-		     //verificar uso de vari�vel x1_grupo a mesma se encontra sem referencia att, joao paulo santos
-do while cGrupoAtual == cPerg
+          x1_grupo
+do while x1_grupo == cPerg
 	RecLock("SX1", .F.)
-	DBDelete()
+		DBDelete()
 	DBSkip()
 Enddo
 
