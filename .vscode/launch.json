@@ -39,7 +39,12 @@
 			"args": [],
 			"label": "sigamdi",
 			"description": ""
+		},
+		{
+			"args": [],
+			"label": "SIGAADV",
+			"description": ""
 		}
 	],
-	"lastProgramExecuted": "sigamdi"
+	"lastProgramExecuted": "SIGAADV"
 }
