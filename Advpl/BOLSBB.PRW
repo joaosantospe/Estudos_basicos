@@ -1,6 +1,6 @@
 #INCLUDE "RWMAKE.CH"
-                                                                                               
-/*//alterado aqui
+                                                                                           
+/*/
 �����������������������������������������������������������������������������                                                          
 �����������������������������������������������������������������������������
 �������������������������������������������������������������������������Ŀ��
@@ -13,6 +13,8 @@
 �����������������������������������������������������������������������������
 �����������������������������������������������������������������������������
 /*/
+
+//Função principal
 User Function BOLSBB()
 
 LOCAL	aPergs := {}
@@ -54,19 +56,14 @@ Endif
 
 cIndexName := Criatrab(Nil,.F.)
 
-
 cIndexKey   := 	"E1_PORTADO+E1_CLIENTE+E1_PREFIXO+E1_NUM+E1_PARCELA+E1_TIPO+DTOS(E1_EMISSAO)"
 cFilter    	  := 	"E1_PREFIXO >= '" + MV_PAR01 + "' .And. E1_PREFIXO <= '" + MV_PAR02 + "' .And. " + ;
 "E1_NUM     >= '" + MV_PAR03 + "' .And. E1_NUM     <= '" + MV_PAR04 + "' .And. " + ;
 "E1_PARCELA >= '" + MV_PAR05 + "' .And. E1_PARCELA <= '" + MV_PAR06 + "' .And. " + ;
-"E1_NUMBOR >= '" + MV_PAR07 + "' .And. E1_NUMBOR <= '" + MV_PAR08 + "'"// .And. E1_NUMBOR <> '' "
+"E1_NUMBOR >= '" + MV_PAR07 + "' .And. E1_NUMBOR <= '" + MV_PAR08 + "'"
 
-
-//"SubsTring(E1_TIPO,3,1) != '-' .And. "+;
-//"E1_PORTADO != '   '"
 IndRegua("SE1", cIndexName, cIndexKey,, cFilter, "Aguarde selecionando registros....")
 
-//IndRegua("SE1", cIndexName, cIndexKey,, cFilter, "Aguarde selecionando registros....")
 DbSelectArea("SE1")
 #IFNDEF TOP
 	DbSetIndex(cIndexName + OrdBagExt())
@@ -138,6 +135,7 @@ LOCAL aDatSacado
 LOCAL aBolText     := {"Ap�s o vencimento cobrar multa de R$ ",;
 "Ap�s vencimento, Mora Diaria de R$ ",;
 "Sujeito a Protesto apos 5 dias do vencimento"}
+
 
 LOCAL nI            := 1
 LOCAL i             := 1
@@ -471,69 +469,46 @@ oPrint:Say  (nRow2+0810,1810,"Ag�ncia/C�digo do benefici�rio",oFont8)
 cString := aDadosBanco[3]+"-"+aDadosBanco[7]+"/"+aDadosBanco[4]+"-"+aDadosBanco[5]//Alltrim(AllTrim(aDadosBanco[3])+"/"+Trim(SUBSTR(cConvenio,1,7)))
 nCol := 1810+(374-(len(cString)*22))
 oPrint:Say  (nRow2+0850,1820,cString,oFont11c)
-
-oPrint:Say  (nRow2+0910,100 ,"Data do Documento"                              ,oFont8)
-oPrint:Say  (nRow2+0940,100, StrZero(Day(aDadosTit[2]),2) +"/"+ StrZero(Month(aDadosTit[2]),2) +"/"+ Right(Str(Year(aDadosTit[2])),4),oFont10)
-
-oPrint:Say  (nRow2+0910,505 ,"Nro.Documento"                                  ,oFont8)
-oPrint:Say  (nRow2+0940,605 ,aDadosTit[7]+aDadosTit[1]					      ,oFont10) //Prefixo +Numero+Parcela
-
-oPrint:Say  (nRow2+0910,1005,"Esp�cie Doc."                                   ,oFont8)
-oPrint:Say  (nRow2+0940,1050,"DM"										      ,oFont10) //Tipo do Titulo
-
-oPrint:Say  (nRow2+0910,1305,"Aceite"                                         ,oFont8)
-oPrint:Say  (nRow2+0940,1400,"N"                                              ,oFont10)
-
-oPrint:Say  (nRow2+0910,1485,"Data do Processamento"                           ,oFont8)
+oPrint:Say  (nRow2+0910,100 ,"Data do Documento"                                   ,oFont8)
+oPrint:Say  (nRow2+0940,100, StrZero(Day(aDadosTit[2]),2) +"/"+ StrZero(Month(aDadosTit[2]),2) +"/"+ Right(Str(Year(aDadosTit[2])),4)                                                                 ,oFont10)
+oPrint:Say  (nRow2+0910,505 ,"Nro.Documento"                                       ,oFont8)
+oPrint:Say  (nRow2+0940,605 ,aDadosTit[7]+aDadosTit[1]					           ,oFont10) //Prefixo +Numero+Parcela
+oPrint:Say  (nRow2+0910,1005,"Esp�cie Doc."                                       ,oFont8)
+oPrint:Say  (nRow2+0940,1050,"DM"										           ,oFont10) //Tipo do Titulo
+oPrint:Say  (nRow2+0910,1305,"Aceite"                                              ,oFont8)
+oPrint:Say  (nRow2+0940,1400,"N"                                                   ,oFont10)
+oPrint:Say  (nRow2+0910,1485,"Data do Processamento"                               ,oFont8)
 oPrint:Say  (nRow2+0940,1550,StrZero(Day(aDadosTit[3]),2) +"/"+ StrZero(Month(aDadosTit[3]),2) +"/"+ Right(Str(Year(aDadosTit[3])),4),oFont10) // Data impressao
-
-oPrint:Say  (nRow2+0910,1810,"Nosso N�mero"                                    ,oFont8)
+oPrint:Say  (nRow2+0910,1810,"Nosso N�mero"                                       ,oFont8)
 //criar parametro para inserir convenio conforme as boa praticas.
-
 //original: cString := substr(aDadosTit[6],1,12)+"-"+substr(aDadosTit[6],13,1)
 cString   := aDadosTit[6]
 nCol      := 1810+(374-(len(cString)*22))
 oPrint:Say  (nRow2+0940,nCol,cString,oFont11c)
-
-oPrint:Say  (nRow2+1010,100 ,"Carteira"                                         ,oFont8)
-oPrint:Say  (nRow2+1033,100 ,"COBRANCA SIMPLES ECR"	                            ,oFont10)
-
-//oPrint:Say  (nRow2+1010,505 ,"Carteira"                                       ,oFont8)
-//oPrint:Say  (nRow2+1030,555 ,aDadosBanco[6]                                  	,oFont10)
-
-oPrint:Say  (nRow2+1010,755 ,"Esp�cie"                                          ,oFont8)
-oPrint:Say  (nRow2+1033,805 ,"REAL"                                             ,oFont10)
-
-oPrint:Say  (nRow2+1010,1005,"Quantidade"                                       ,oFont8)
-oPrint:Say  (nRow2+1010,1485,"Valor"                                            ,oFont8)
-
-oPrint:Say  (nRow2+1010,1810,"Valor do Documento"                          	    ,oFont8)
+oPrint:Say  (nRow2+1010,100 ,"Carteira"                                            ,oFont8)
+oPrint:Say  (nRow2+1033,100 ,"COBRANCA SIMPLES ECR"	                               ,oFont10)
+oPrint:Say  (nRow2+1010,755 ,"Esp�cie"                                            ,oFont8)
+oPrint:Say  (nRow2+1033,805 ,"REAL"                                                ,oFont10)
+oPrint:Say  (nRow2+1010,1005,"Quantidade"                                          ,oFont8)
+oPrint:Say  (nRow2+1010,1485,"Valor"                                               ,oFont8)
+oPrint:Say  (nRow2+1010,1810,"Valor do Documento"                          	       ,oFont8)
 cString := Alltrim(Transform(aDadosTit[5],"@E 99,999,999.99"))
 nCol := 1810+(374-(len(cString)*22))
-oPrint:Say  (nRow2+1030,nCol,cString ,oFont11c)
-
-oPrint:Say  (nRow2+1110,100 ,"Instru��es (Todas informa��es deste bloqueto s�o de exclusiva responsabilidade do benefici�rio)",oFont8)
-oPrint:Say  (nRow2+1150,100 ,"Juros de Mora de 1% ao m�s.",oFont10)
-oPrint:Say  (nRow2+1200,100 ,"Multa de 9% ap�s 5 dias de Vencimento.",oFont10) //comentado por joao paulo em 24/03/2020 por rordem de s�rgio
-//oPrint:Say  (nRow2+1150,100 ,aBolText[1]+" "+AllTrim(Transform((aDadosTit[5]*0.01),"@E 99,999.99"))       ,oFont10)
-//oPrint:Say  (nRow2+1200,100 ,aBolText[2]+" "+AllTrim(Transform((aDadosTit[5]*(SE1->E1_PORCJUR/100)),"@E 99,999.99"))  ,oFont10)
-//oPrint:Say  (nRow2+1250,100 ,aBolText[3]                                        ,oFont10)
-
-oPrint:Say  (nRow2+1110,1810,"(-)Desconto"                                      ,oFont8)
-oPrint:Say  (nRow2+1210,1810,"(-)Abatimento"                                    ,oFont8)
-oPrint:Say  (nRow2+1310,1810,"(+)Mora"                                          ,oFont8)
-oPrint:Say  (nRow2+1410,1810,"(+)Outros Acr�scimos"                             ,oFont8)
-oPrint:Say  (nRow2+1510,1810,"(=)Valor Cobrado"                                 ,oFont8)
-
-oPrint:Say  (nRow2+1610,100 ,"Pagador"                                          ,oFont8)
-oPrint:Say  (nRow2+1620,400 ,aDatSacado[1]+" ("+aDatSacado[2]+")"               ,oFont10)
-oPrint:Say  (nRow2+1660,400 ,aDatSacado[3]                                      ,oFont10)
+oPrint:Say  (nRow2+1030,nCol,cString                                               ,oFont11c)
+oPrint:Say  (nRow2+1110,100 ,"Instru��es (Todas informa��es deste bloqueto s�o de exclusiva responsabilidade do benefici�rio)"                                                                    ,oFont8)
+oPrint:Say  (nRow2+1150,100 ,"Juros de Mora de 1% ao m�s."                        ,oFont10)
+oPrint:Say  (nRow2+1200,100 ,"Multa de 9% ap�s 5 dias de Vencimento."             ,oFont10) 
+oPrint:Say  (nRow2+1110,1810,"(-)Desconto"                                         ,oFont8)
+oPrint:Say  (nRow2+1210,1810,"(-)Abatimento"                                       ,oFont8)
+oPrint:Say  (nRow2+1310,1810,"(+)Mora"                                             ,oFont8)
+oPrint:Say  (nRow2+1410,1810,"(+)Outros Acr�scimos"                               ,oFont8)
+oPrint:Say  (nRow2+1510,1810,"(=)Valor Cobrado"                                    ,oFont8)
+oPrint:Say  (nRow2+1610,100 ,"Pagador"                                             ,oFont8)
+oPrint:Say  (nRow2+1620,400 ,aDatSacado[1]+" ("+aDatSacado[2]+")"                  ,oFont10)
+oPrint:Say  (nRow2+1660,400 ,aDatSacado[3]                                         ,oFont10)
 oPrint:Say  (nRow2+1690,400 ,aDatSacado[6]+"    "+aDatSacado[4]+" - "+aDatSacado[5],oFont10) // CEP+Cidade+Estado
-
-
-oPrint:Say  (nRow2+1710,100 ,"Pagador/Avalista",oFont8)
-oPrint:Say  (nRow2+1750,1500,"Autentica��o Mec�nica",oFont8)
-
+oPrint:Say  (nRow2+1710,100 ,"Pagador/Avalista"                                    ,oFont8)
+oPrint:Say  (nRow2+1750,1500,"Autentica��o Mec�nica"                             ,oFont8)
 oPrint:Line (nRow2+0710,1800,nRow2+1800,1800 )
 oPrint:Line (nRow2+1210,1800,nRow2+1210,2300 )
 oPrint:Line (nRow2+1310,1800,nRow2+1310,2300 )
@@ -729,16 +704,13 @@ End
 	If lNossoNum_DV
 		D := mod(D,11)
 			If D == 0 
-			// COMENTADO POR JOAO PAULO EM 14/02/2020 SEGUINRO A REGRA BANCARIA BB ACIMA
-			//.OR. D == 1
-	   			D := 0
+				D := 0
 			Endif 
 			If (D>0 .or. D < 10)
 	   			D := D
    			EndIf
 	   		If D == 10
 				D := 'x'  
-			// ENDIF ADICIONADO POR JOAO PAULO
 			Endif	
 	EndIf 
 Return(D)
@@ -962,11 +934,28 @@ Next
 ���������������������������������������������������������������������������������
 ����������������������������������������������������������������������������������
 /*/
+
+
 Static FUNCTION CONTASAN(cCONTA)
-cCONTA := PADL(LEFT(cCONTA,2)+"0"+STRTRAN(SUBSTR(cCONTA,4,LEN(cCONTA)),"-",""),10,"0")
+
+	cCONTA := PADL(LEFT(cCONTA,2)+"0"+STRTRAN(SUBSTR(cCONTA,4,LEN(cCONTA)),"-",""),10,"0")
+
 RETURN(cCONTA)
 
 
+/*/
+��������������������������������������������������������������������������������
+�����������������������������������������������������������������������������Ŀ��
+���Função:VALIDPERG                          Autor:João Paulo                                   � Data � 26/02/2021 ��� 
+�����������������������������������������������������������������������������Ĵ��
+���Descrição:  Validação e Criação de Grupo de perguntas           												      ���
+�����������������������������������������������������������������������������Ĵ��
+���Uso: Especifico para Clientes Microsiga                    	  	 											      ���
+������������������������������������������������������������������������������ٱ�
+��������������������������������������������������������������������������������
+��������������������������������������������������������������������������������
+/*/
+// TODO VALIDPERG
 Static Function ValidPerg()
 _sAlias := Alias()
 DBSelectArea("SX1")
@@ -976,7 +965,9 @@ cPerg := PADR(cPerg,10)
 aRegs:={}
 
 // Adicionando elementos ao array aregs
+// Composição e orem de campos SX1 
 // Grupo/Ordem/Pergunta/Variavel/Tipo/Tamanho/Decimal/Presel/GSC/Valid/Var01/Def01/Cnt01/Var02/Def02/Cnt02/Var03/Def03/Cnt03/Var04/Def04/Cnt04/Var05/Def05/Cnt05
+
 Aadd(aRegs,{cPerg,"01","Do Prefixo           ?","","","mv_ch1","C", 3,0,0,"G","","mv_par01","","","","","","","","","","","","","","","","","","","","","","","","","",""})
 Aadd(aRegs,{cPerg,"02","Ate o Prefixo        ?","","","mv_ch2","C", 3,0,0,"G","","mv_par02","","","","","","","","","","","","","","","","","","","","","","","","","",""})
 Aadd(aRegs,{cPerg,"03","Do Titulo            ?","","","mv_ch3","C", 9,0,0,"G","","mv_par03","","","","","","","","","","","","","","","","","","","","","","","","","",""})
@@ -986,7 +977,7 @@ AADD(aRegs,{cPerg,"06","Ate a Parcela        ?","","","mv_ch6","C", 1,0,0,"G",""
 AADD(aRegs,{cPerg,"07","Do Bordero           ?","","","mv_ch7","C", 6,0,0,"G","","mv_par07","","","","","","","","","","","","","","","","","","","","","","","","","",""})
 AADD(aRegs,{cPerg,"08","Ate o Bordero        ?","","","mv_ch8","C", 6,0,0,"G","","mv_par08","","","","","","","","","","","","","","","","","","","","","","","","","",""})
 
-//Estrutua de repetição 
+//Estrutua de repetição para inclusção de de perguntas caso não exista
 For i:=1 to Len(aRegs)
 	If ! DBSeek(cPerg+aRegs[i,2])
 		RecLock("SX1",.T.)
@@ -998,8 +989,9 @@ For i:=1 to Len(aRegs)
 Next
 
 DBSkip()
-          x1_grupo
-do while x1_grupo == cPerg
+
+// Estrutura condicional para eliminação de peguntas que não estejam contias dentro do grupo definido acima
+Do while x1_grupo == cPerg
 	RecLock("SX1", .F.)
 		DBDelete()
 	DBSkip()
@@ -1009,36 +1001,23 @@ DBSelectArea(_sAlias)
 
 Return
 
+/*/
+��������������������������������������������������������������������������������
+�����������������������������������������������������������������������������Ŀ��
+���Função:SMPESSOA                          Autor:João Paulo                                   � Data � 26/02/2021  ��� 
+�����������������������������������������������������������������������������Ĵ��
+���Descrição:  trazer apenas clientes que possuam cadastros do tipo pessoa juridica A1_PESSOA = "J" 			      ���
+�����������������������������������������������������������������������������Ĵ��
+���Uso: Especifico para Clientes Microsiga                    	  	 											      ���
+������������������������������������������������������������������������������ٱ�
+��������������������������������������������������������������������������������
+��������������������������������������������������������������������������������
+/*/
 
 static function SMPESSOA(p_cCLIENTE,p_cLOJA)
-// Criada por Fernando Lins em: 28-06-2017
-// Objetivo, trazer apenas clientes que possuam cadastros do tipo pessoa juridica A1_PESSOA = "J"
-// chamado criado pela wings para a Semar, N�:
-
 Local cPessoa := "F"
 
-/*local lRet:= .f.
-
-wAliasQRY:= "XSA1"
-
-cSq02 := " SELECT * "
-cSq02 += " FROM " + RetSqlName("SA1")
-cSq02 += " WHERE D_E_L_E_T_ = ' ' "
-cSq02 += "   AND A1_FILIAL = '" + xFilial('SA1')+ "'"
-cSq02 += "   AND A1_COD = '" + p_cCLIENTE  + "'"
-cSq02 += "   AND A1_LOJA = '" + p_cLOJA + "' "
-cSq02 += "   AND A1_PESSOA = 'J' "
-
-If Select(wAliasQRY)>0
-DbSelectArea(wAliasQRY)
-DbCloseArea()
-Endif
-TcQuery cSq02 New Alias (wAliasQRY)
-
-lRet:= !empty((wAliasQRY)->A1_COD) */
-cPessoa := POSICIONE("SA1", 1, xFilial("SA1")+p_cCLIENTE+p_cLOJA,"A1_PESSOA")
-
-//teste
+	cPessoa := POSICIONE("SA1", 1, xFilial("SA1")+p_cCLIENTE+p_cLOJA,"A1_PESSOA")
 
 return cPessoa
 
