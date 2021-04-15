@@ -11,7 +11,6 @@ Local aDados  := {}
 Local i
 Local j 
 Private aErro := {}
- 
 cDiret :=  cGetFile( 'Arquito CSV|*.csv| Arquivo TXT|*.txt| Arquivo XML|*.xml',; //[ cMascara], 
                          'Selecao de Arquivos',;                                 //[ cTitulo], 
                          0,;                                                     //[ nMascpadrao], 
@@ -21,16 +20,16 @@ cDiret :=  cGetFile( 'Arquito CSV|*.csv| Arquivo TXT|*.txt| Arquivo XML|*.xml',;
                          .T.)                                                    //[arvore]
 
 //INDICA O NOME DO ARQUIVO TXT QUE SERÁ ABERTO                         
-FT_FUSE(cDiret)ADMIN    
+	FT_FUSE(cDiret)ADMIN
 
 //DEFINE TAMANHO DA REGUA(LÊ O NUMERO TOTAL DE LINHAS DO ARQUIVO TEXTO ABERTO)
-ProcRegua(FT_FLASTREC())
+	ProcRegua(FT_FLASTREC())
 
 //POSICIONA NO PRIMEIRO CARACTER DA PRIMEIRA LINHA 
-FT_FGOTOP()
+	FT_FGOTOP()
 
 // ENQUANTO PONTEIRO NÃO ESTIVER NO FIM DO ARQUIVO TXT
-While !FT_FQUIVOEOF()
+	While !FT_FQUIVOEOF()
  
 	IncProc("Lendo arquivo texto...")
     // CLINHA LÊ E RETORNA UMA LINHA DO ARQUIVO TXT ABERTO
